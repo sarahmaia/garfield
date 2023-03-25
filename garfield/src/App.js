@@ -9,6 +9,7 @@ import Banner from './components/banner';
 import Body from './components/body';
 import CustomizedButton from './components/button';
 import Contact from './components/contact';
+import Pictures from './components/pictures';
 
 function App() {
   useEffect(() => {
@@ -26,7 +27,8 @@ function App() {
         {/* <AppBar /> */}
         <Banner />
         <Body />
-        <CustomizedButton />
+        {/* <CustomizedButton /> */}
+        <Pictures />
         <Contact />
       </Container>
     </ThemeProvider>
