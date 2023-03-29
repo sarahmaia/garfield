@@ -33,61 +33,99 @@ export default function Body() {
               </Typography>
             </Box>
           </Grid>
+
           <Grid container item justifyContent="left">
+            <Grid item>
               <CheckCircleOutlineIcon />
-              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora', fontColor: '#4d4dff'}}>
-              Masters in Industrial Administration, Purdue University, West Lafayette, IN, 1995
+            </Grid>
+            <Grid item xs>
+              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}} wrap>
+                Masters in Industrial Administration, Purdue University, West Lafayette, IN, 1995
               </Typography>
             </Grid>
-            <Grid container item justifyContent="left">
+          </Grid>
+          <Grid container item justifyContent="left">
+            <Grid item>
               <CheckCircleOutlineIcon />
-              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}}>
-              B.S. Statistical Analysis, BYU, 1993
+            </Grid>
+            <Grid item xs>
+              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}} wrap>
+                B.S. Statistical Analysis, BYU, 1993
               </Typography>
             </Grid>
-            <Grid container item justifyContent="left">
+          </Grid>
+          <Grid container item justifyContent="left">
+            <Grid item>
               <CheckCircleOutlineIcon />
-              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}}>
-              7 years: Chief Deputy Assessor Utah County
+            </Grid>
+            <Grid item xs>
+              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}} wrap>
+                7 years: Chief Deputy Assessor Utah County
               </Typography>
             </Grid>
-            <Grid container item justifyContent="left">
+          </Grid>
+          <Grid container item justifyContent="left">
+            <Grid item>
               <CheckCircleOutlineIcon />
-              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}}>
-              12 years: Employed at Utah County's Assessor Office
+            </Grid>
+            <Grid item xs>
+              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}} wrap>
+                12 years: Employed at Utah County's Assessor Office
               </Typography>
             </Grid>
-            <Grid container item justifyContent="left">
+          </Grid>
+          <Grid container item justifyContent="left">
+            <Grid item>
               <CheckCircleOutlineIcon />
-              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}}>
-              17 years: Certified Appraiser
+            </Grid>
+            <Grid item xs>
+              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}} wrap>
+                17 years: Certified Appraiser
               </Typography>
             </Grid>
-            <Grid container item justifyContent="left">
+          </Grid>
+          <Grid container item justifyContent="left">
+            <Grid item>
               <CheckCircleOutlineIcon />
-              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}}>
-              26 years: Work experience, American Express, Discover Card, Zions Bank, Franklin Covey, Landmark Appraisal
+            </Grid>
+            <Grid item xs>
+              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}} wrap>
+                26 years: Work experience, American Express, Discover Card, Zions Bank, Franklin Covey, Landmark Appraisal
               </Typography>
             </Grid>
-            <Grid container item justifyContent="left">
+          </Grid>
+          <Grid container item justifyContent="left">
+            <Grid item>
               <CheckCircleOutlineIcon />
-              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}}>
-              Past President of the International Association of Assessing Officers, Utah Chapter
+            </Grid>
+            <Grid item xs>
+              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}} wrap>
+                Past President of the International Association of Assessing Officers, Utah Chapter
               </Typography>
             </Grid>
-            <Grid container item justifyContent="left">
+          </Grid>
+          <Grid container item justifyContent="left">
+            <Grid item>
               <CheckCircleOutlineIcon />
-              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}}>
-              Licensed Appraising Instructor
+            </Grid>
+            <Grid item xs>
+              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}} wrap>
+                Licensed Appraising Instructor
               </Typography>
             </Grid>
-            <Grid container item justifyContent="left">
+          </Grid>
+          <Grid container item justifyContent="left">
+            <Grid item>
               <CheckCircleOutlineIcon />
-              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}}>
-              Former Adjunct Professor, Statistical Analysis Utah Valley University
+            </Grid>
+            <Grid item xs>
+              <Typography style={{paddingLeft: '6px', fontFamily: 'Lora'}} wrap>
+                Former Adjunct Professor, Statistical Analysis Utah Valley University
               </Typography>
             </Grid>
+          </Grid>
         </Grid>
+
         
         <Grid item justifyContent="right">
           <img src="/images/body/garfieldfamily.jpg" style={{width: '420px', height: 'auto'}} />
