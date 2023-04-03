@@ -9,15 +9,21 @@ export default function Pictures() {
         <Grid container sx={{ color: '#3d4849' }}>
       <Grid container item justifyContent="center">
       <Box display="flex">
-        <PicturesImage src="/images/body/purduediploma.jpg" />
-        <PicturesImage src="/images/body/BYU Diploma.jpg" />
-        <PicturesImage src="/images/body/license1.png" />
+        <Grid sx={{paddingRight: '15px'}}>
+          <PicturesImage sx={{boxShadow: '12', padding: '0px', width: 300, height: 250}} src="/images/body/purduediploma.jpg" />
+        </Grid>
+        <Grid sx={{paddingRight: '15px', paddingLeft: '15px'}}>
+          <PicturesImage sx={{boxShadow: '12', padding: '0px', width: 300, height: 250}} src="/images/body/BYU Diploma.jpg" />
+        </Grid>
+        <Grid sx={{paddingLeft: '15px'}}>
+          <PicturesImage sx={{boxShadow: '12', padding: '0px', width: 300, height: 250}} src="/images/body/license1.png" />
+          </Grid>
       </Box>
       </Grid>
       <Grid container item justifyContent="center">
       <Box display="flex">
-        <PicturesImage src="/images/body/Burtaward.png" />
-        <PicturesImage src="/images/body/Burtaward2.png" />
+        <PicturesImage sx={{padding: '12px', width: 250, height: 300}} src="/images/body/Burtaward.png" />
+        <PicturesImage sx={{padding: '12px', width: 250, height: 300}} src="/images/body/Burtaward2.png" />
       </Box>
       </Grid>
       </Grid>

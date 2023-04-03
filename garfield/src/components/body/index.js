@@ -5,6 +5,8 @@ import "@fontsource/lora";
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import Grid from '@mui/material/Grid';
 import Pictures from '../pictures';
+import Endorsements from '../../components/endorsements';
+import Events from '../../components/events'
 
 export default function Body() {
   
@@ -14,7 +16,7 @@ export default function Body() {
       <Grid container item justifyContent="left">
               <Grid container item justifyContent="center">
                 <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'center', fontStyle: 'italic' }} variant="h4" component="span" gutterBottom>
-                  "Burt did an excellent job as my chief deputy assessor for seven years. Burt is highly qualified and easy to approach, two attributes you want for your next county assessor"
+                  "Burt did an excellent job as my chief deputy assessor for seven years. Burt is highly qualified and easy to approach, two attributes you want for your next county assessor."
                 </Typography>
               </Grid>
             <Grid container item justifyContent="center">
@@ -24,6 +26,17 @@ export default function Body() {
             </Grid>  
         </Grid>
       </Grid>
+      
+      <Grid container>
+        <Grid item sx={{padding: '55px'}} justifyContent="left">
+          <Endorsements/>
+        </Grid>
+        <Grid item sx={{paddingLeft: '50px', paddingBottom: '20px', width: 800}} justifyContent="right" >
+          <Events/>
+        </Grid>
+      </Grid>
+
+
       <Grid container>
         <Grid item xs={8}>
           <Grid item xs={4}>
@@ -134,8 +147,8 @@ export default function Body() {
 
       <Grid item xs={4}>
         <Box sx={{ width: '100%', maxWidth: 500 }}>
-          <Typography style={{paddingTop: '16px', fontWeight: 'bold', fontFamily: 'Lora', color: '#444444'}} variant="h5" gutterBottom>
-            Strategic Plan:
+          <Typography style={{paddingTop: '16px', fontWeight: 'bold', fontFamily: 'Lora', color: '#444444'}} variant="h4" gutterBottom>
+            Strategic Plan
           </Typography>
         </Box>
       </Grid>
