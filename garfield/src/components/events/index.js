@@ -33,11 +33,12 @@ function createData(Date, Event, Location, Time) {
 
 export default function Events() {
     return (
+    <Box sx={{boxShadow: 12}}>
     <TableContainer sx={{backgroundColor: '#ffffed'}} component={Paper}>
             <Typography style={{padding: '10px', fontWeight: 'bold', fontFamily: 'Lora', color: '#444444'}} variant="h4" gutterBottom>
                 Events
             </Typography>
-      <Table sx={{minWidth: 30, backgroundColor: '#ffffed', boxShadow: '12'}} size="small">
+      <Table sx={{minWidth: 30, backgroundColor: '#ffffed'}} size="small">
         <TableHead>
           <TableRow>
             <TableCell sx={{fontWeight: 'bold', fontFamily: 'Lora', color: '#444444'}} align="right">Date</TableCell>
@@ -58,88 +59,8 @@ export default function Events() {
         </TableBody>
       </Table>
     </TableContainer>
+    </Box>
 
-
-        // <Box sx={{ width: 600, height: 360, backgroundColor: '#ffffed', boxShadow: '12'}}>
-        //     <Grid container item justifyContent="left" style={{paddingLeft: '10px'}}>
-        //         <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'center', fontWeight: 'bold' }} variant="h4" component="span" gutterBottom>
-        //             Events
-        //         </Typography>
-        //     </Grid>
-
-        //     <Divider />
-        //     <Grid container item sx={{padding: '5px'}} justifyContent="left">
-        //         <Grid item xs>
-        //         <Typography style={{borderRight: '1px light grey', paddingLeft: '0px', fontFamily: 'Lora'}} wrap>
-        //             April 4, Town Hall, Provo Library 7 - 8:30pm
-        //         </Typography>
-        //         </Grid> 
-        //     </Grid>
-
-        //     <Divider />
-        //     <Grid container item sx={{padding: '5px'}} justifyContent="left">
-        //         <Grid item xs>
-        //         <Typography style={{paddingLeft: '0px', fontFamily: 'Lora'}} wrap>
-        //             April 5, Republican Party "meet and greet", Virtual, time TBA
-        //         </Typography>
-        //         </Grid> 
-        //     </Grid>
-
-        //     <Divider />
-        //     <Grid container item sx={{padding: '5px'}} justifyContent="left">
-        //         <Grid item xs>
-        //         <Typography style={{borderRight: '1px light grey', paddingLeft: '0px', fontFamily: 'Lora'}} wrap>
-        //             April 8, Republican Party "meet and greet", in-person, 8am Spanish Fork Veteran's Memorial Bldg
-        //         </Typography>
-        //         </Grid> 
-        //     </Grid>
-
-        //     <Divider />
-        //     <Grid container item sx={{padding: '5px'}} justifyContent="left">
-        //         <Grid item xs>
-        //         <Typography style={{borderRight: '1px light grey', paddingLeft: '0px', fontFamily: 'Lora'}} wrap>
-        //             April 10, Republican Part "meet and greet", in-person, time and location TBA
-        //         </Typography>
-        //         </Grid> 
-        //     </Grid>
-
-        //     <Divider />
-        //     <Grid container item sx={{padding: '5px'}} justifyContent="left">
-        //         <Grid item xs>
-        //         <Typography style={{borderRight: '1px light grey', paddingLeft: '0px', fontFamily: 'Lora'}} wrap>
-        //             April 11, Town Hall, American Fork Library, 7 - 8:30pm
-        //         </Typography>
-        //         </Grid> 
-        //     </Grid>
-
-        //     <Divider />
-        //     <Grid container item sx={{padding: '5px'}} justifyContent="left">
-        //         <Grid item xs>
-        //         <Typography style={{borderRight: '1px light grey', paddingLeft: '0px', fontFamily: 'Lora'}} wrap>
-        //             April 12, Republican Party "meet and greet", Virtual, time TBA
-        //         </Typography>
-        //         </Grid> 
-        //     </Grid>
-
-        //     <Divider />
-        //     <Grid container item sx={{padding: '5px'}} justifyContent="left">
-        //         <Grid item xs>
-        //         <Typography style={{borderRight: '1px light grey', paddingLeft: '0px', fontFamily: 'Lora'}} wrap>
-        //             April 13, Town Hall, 240 South Main Street, Payson, time TBA
-        //         </Typography>
-        //         </Grid> 
-        //     </Grid>
-
-        //     <Divider />
-        //     <Grid container item sx={{padding: '5px'}} justifyContent="left">
-        //         <Grid item xs>
-        //         <Typography style={{borderRight: '1px light grey', paddingLeft: '0px', fontFamily: 'Lora'}} wrap>
-        //             April 15, Vote, Mountain View High School, 9am
-        //         </Typography>
-        //         </Grid> 
-        //     </Grid>
-
-        // </Box>
 
     )
 }

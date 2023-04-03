@@ -20,7 +20,7 @@ export default function Body() {
                 </Typography>
               </Grid>
             <Grid container item justifyContent="center">
-              <Typography style={{fontFamily: 'Lora', paddingBottom: '20px', textAlign: 'center'}} variant="h6" component="span" gutterBottom>
+              <Typography style={{fontFamily: 'Lora', paddingBottom: '20px', textAlign: 'center', fontSize: '16px'}} variant="h6" component="span" gutterBottom>
               Kris Poulson, Utah County Assessor 2003-2023
               </Typography>
             </Grid>  
@@ -191,17 +191,17 @@ export default function Body() {
         </Typography>
       </Grid>
       <Grid container item justifyContent="left">
-        <Typography style={{fontFamily: 'Lora', paddingTop: '15px'}} variant="body1" component="span" gutterBottom>
+        <Typography style={{fontFamily: 'Lora', paddingTop: '15px', fontSize: '16px'}} variant="body1" component="span" gutterBottom>
         Thank you for your support in the election on April 15, 2023.
         </Typography>
       </Grid>
       <Grid container item justifyContent="left">
-        <Typography style={{fontFamily: 'Lora', paddingTop: '15px'}} variant="body1" component="span" gutterBottom>
+        <Typography style={{fontFamily: 'Lora', paddingTop: '15px', fontSize: '16px'}} variant="body1" component="span" gutterBottom>
         Burt Garfield MBA, BS, CRA
         </Typography>
       </Grid>
       <Grid container item justifyContent="left">
-      <Typography style={{fontFamily: 'Lora', paddingTop: '0px'}} variant="body1" component="span" gutterBottom>
+      <Typography style={{fontFamily: 'Lora', paddingTop: '0px', fontSize: '16px'}} variant="body1" component="span" gutterBottom>
           Valuation Manager, Utah County Assessor Office
         </Typography>
         </Grid>
