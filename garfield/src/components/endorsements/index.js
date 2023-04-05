@@ -12,7 +12,7 @@ const styles = {
 
 export default function Endorsements() {
     return (
-        <Box sx={{ width: 500, height: 200, backgroundColor: '#ffffed', boxShadow: '12'}} >
+        <Box sx={{ width: 500, height: 215, backgroundColor: '#ffffed', boxShadow: '12'}} >
             <Grid container item justifyContent="left" style={{paddingLeft: '10px'}}>
                 <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'center', fontWeight: 'bold' }} variant="h4" component="span" gutterBottom>
                     Endorsements
@@ -25,6 +25,16 @@ export default function Endorsements() {
                 <Grid item xs>
                     <Typography style={{paddingLeft: '15px', fontFamily: 'Lora'}} wrap>
                     Amelia Powers Gardner, Utah County Commissioner
+                    </Typography>
+                </Grid>
+            </Grid>
+            <Grid container style={{paddingLeft: '10px'}}>
+                <Grid item>
+                <CircleIcon style={styles.activity}/>
+                </Grid>
+                <Grid item xs>
+                    <Typography style={{paddingLeft: '15px', fontFamily: 'Lora'}} wrap>
+                    Brandon Gordon, Utah County Commissioner
                     </Typography>
                 </Grid>
             </Grid>

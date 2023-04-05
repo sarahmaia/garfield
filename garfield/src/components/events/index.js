@@ -23,7 +23,7 @@ function createData(Date, Event, Location, Time) {
   const rows = [
     createData('April 4', 'Town Hall', 'Provo Library', '7 - 8:30pm'),
     createData('April 5', 'Republican Party "Meet & Greet"', 'Virtual', 'TBA'),
-    createData('April 8', 'Republican Party "Meet & Greet"', "Spanish Fork Veteran's Memorial Bldg", '8:00am'),
+    createData('April 8', 'Republican Party "Meet & Greet"', "Spanish Fork Veteran's Memorial Bldg", '9:00am'),
     createData('April 10', 'Republican Party "Meet & Greet"', 'TBA', 'TBA'),
     createData('April 11', 'Town Hall', 'American Fork Library', '7 - 8:30pm'),
     createData('April 12', 'Republican Party "Meet & Greet"', 'Virtual', 'TBA'),
