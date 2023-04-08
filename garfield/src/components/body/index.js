@@ -28,10 +28,10 @@ export default function Body() {
       </Grid>
       
       <Grid container>
-        <Grid item sx={{padding: '55px'}} justifyContent="left">
+        <Grid item sx={{padding: '35px', paddingTop: '0px'}} justifyContent="left">
           <Endorsements/>
         </Grid>
-        <Grid item sx={{paddingLeft: '50px', paddingBottom: '20px', width: 800}} justifyContent="right" >
+        <Grid item sx={{paddingLeft: '50px', paddingBottom: '15px', width: 800}} justifyContent="right" >
           <Events/>
         </Grid>
       </Grid>

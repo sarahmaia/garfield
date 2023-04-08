@@ -21,13 +21,9 @@ function createData(Date, Event, Location, Time) {
   }
   
   const rows = [
-    createData('April 4', 'Town Hall', 'Provo Library', '7 - 8:30pm'),
-    createData('April 5', 'Republican Party "Meet & Greet"', 'Virtual', 'TBA'),
-    createData('April 8', 'Republican Party "Meet & Greet"', "Spanish Fork Veteran's Memorial Bldg", '9:00am'),
-    createData('April 10', 'Republican Party "Meet & Greet"', 'TBA', 'TBA'),
+    createData('April 10', 'Republican Party "Meet & Greet"', "American Fork Veterans Memorial Hall", '6:30pm'),
     createData('April 11', 'Town Hall', 'American Fork Library', '7 - 8:30pm'),
-    createData('April 12', 'Republican Party "Meet & Greet"', 'Virtual', 'TBA'),
-    createData('April 13', 'Town Hall', '240 S Main St, Payson', 'TBA'),
+    createData('April 13', 'Town Hall', '240 S Main St, Payson', '7 - 8:30pm'),
     createData('April 15', 'Vote', 'Mountain View High School', '9:00am'),
   ];
 
@@ -35,7 +31,7 @@ export default function Events() {
     return (
     <Box sx={{boxShadow: 12}}>
     <TableContainer sx={{backgroundColor: '#ffffed'}} component={Paper}>
-            <Typography style={{padding: '10px', fontWeight: 'bold', fontFamily: 'Lora', color: '#444444'}} variant="h4" gutterBottom>
+            <Typography style={{padding: '7px', paddingTop: '7px', paddingLeft: '15px', fontWeight: 'bold', fontFamily: 'Lora', color: '#444444'}} variant="h4" gutterBottom>
                 Events
             </Typography>
       <Table sx={{minWidth: 30, backgroundColor: '#ffffed'}} size="small">

@@ -12,9 +12,9 @@ const styles = {
 
 export default function Endorsements() {
     return (
-        <Box sx={{ width: 500, height: 215, backgroundColor: '#ffffed', boxShadow: '12'}} >
+        <Box sx={{ width: 500, height: 240, backgroundColor: '#ffffed', boxShadow: '12'}} >
             <Grid container item justifyContent="left" style={{paddingLeft: '10px'}}>
-                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'center', fontWeight: 'bold' }} variant="h4" component="span" gutterBottom>
+                <Typography style={{fontFamily: 'Lora', padding: '7px', textAlign: 'center', fontWeight: 'bold' }} variant="h4" component="span" gutterBottom>
                     Endorsements
                 </Typography>
             </Grid>
@@ -45,6 +45,16 @@ export default function Endorsements() {
                 <Grid item xs>
                     <Typography style={{paddingLeft: '15px', fontFamily: 'Lora'}} wrap>
                         Kim Jackson, Utah County Treasurer
+                    </Typography>
+                </Grid>
+            </Grid>
+            <Grid container style={{paddingLeft: '10px'}}>
+                <Grid item>
+                <CircleIcon style={styles.activity}/>
+                </Grid>
+                <Grid item xs>
+                    <Typography style={{paddingLeft: '15px', fontFamily: 'Lora'}} wrap>
+                        Aaron Davidson, Utah County Clerk
                     </Typography>
                 </Grid>
             </Grid>
