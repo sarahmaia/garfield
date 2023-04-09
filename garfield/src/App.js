@@ -24,10 +24,8 @@ function App() {
           background: "#d4dfee" //color of page
         }}
       > 
-        {/* <AppBar /> */}
         <Banner />
         <Body />
-        {/* <CustomizedButton /> */}
         <Pictures />
         <Contact />
       </Container>

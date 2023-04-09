@@ -6,7 +6,8 @@ import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import Grid from '@mui/material/Grid';
 import Pictures from '../pictures';
 import Endorsements from '../../components/endorsements';
-import Events from '../../components/events'
+import Events from '../../components/events';
+import Quote from '../../components/quote';
 
 export default function Body() {
   
@@ -138,7 +139,6 @@ export default function Body() {
             </Grid>
           </Grid>
         </Grid>
-
         
         <Grid item justifyContent="right">
           <img src="/images/body/garfieldfamily.jpg" style={{width: '420px', height: 'auto'}} />
@@ -205,6 +205,11 @@ export default function Body() {
           Valuation Manager, Utah County Assessor Office
         </Typography>
         </Grid>
+
+        <Grid item sx={{padding: '40px'}} justifyContent="left">
+          <Quote/>
+        </Grid>
+
     </Grid>
   );
 }
