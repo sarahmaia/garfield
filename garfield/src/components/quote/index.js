@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 
 export default function Quote() {
     return (
-        <Box sx={{ width: '100%', height: 270, backgroundColor: '#ffffed', boxShadow: '12', padding: '10px'}} >
+        <Box sx={{ width: '100%', height: '95%', backgroundColor: '#ffffed', boxShadow: '12', padding: '10px'}} >
             <Grid container item justifyContent="center" style={{paddingLeft: '10px'}}>
                 <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'center', fontStyle: 'italic', fontSize: '19px' }} component="span" gutterBottom>
                 “We have worked with Burt for years and can’t think of anyone better to do the job of Assessor. He has a great working relationship with fellow employees. 
