@@ -12,7 +12,7 @@ const styles = {
 
 export default function Endorsements() {
     return (
-        <Box sx={{ width: 500, height: 240, backgroundColor: '#ffffed', boxShadow: '12'}} >
+        <Box sx={{ width: 500, height: 250, backgroundColor: '#ffffed', boxShadow: '12'}} >
             <Grid container item justifyContent="left" style={{paddingLeft: '10px'}}>
                 <Typography style={{fontFamily: 'Lora', padding: '7px', textAlign: 'center', fontWeight: 'bold' }} variant="h4" component="span" gutterBottom>
                     Endorsements

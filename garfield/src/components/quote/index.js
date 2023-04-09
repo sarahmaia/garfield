@@ -14,37 +14,37 @@ export default function Quote() {
                 </Typography>
             </Grid>
             <Grid container item justifyContent="left" style={{paddingLeft: '10px'}}>
-                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'center', fontStyle: 'italic' }} variant="body1" component="span" gutterBottom>
+                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'left', fontStyle: 'italic', fontSize: '16px' }} component="span" gutterBottom>
                     Peter Jeppsen, Utah County Assessor, Commercial Manager
                 </Typography>
             </Grid>
             <Grid container item justifyContent="left" style={{paddingLeft: '10px'}}>
-                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'center', fontStyle: 'italic' }} variant="body1" component="span" gutterBottom>
+                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'left', fontStyle: 'italic', fontSize: '16px' }} component="span" gutterBottom>
                     Theron Case, Utah County Assessor, Residential Manager
                 </Typography>
             </Grid>
             <Grid container item justifyContent="left" style={{paddingLeft: '10px'}}>
-                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'center', fontStyle: 'italic' }} variant="body1" component="span" gutterBottom>
+                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'left', fontStyle: 'italic', fontSize: '16px' }} component="span" gutterBottom>
                     Mark Carter, Utah County Assessor, Certified Residential Appraiser & Project Manager
                 </Typography>
             </Grid>
             <Grid container item justifyContent="left" style={{paddingLeft: '10px'}}>
-                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'center', fontStyle: 'italic' }} variant="body1" component="span" gutterBottom>
+                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'left', fontStyle: 'italic', fontSize: '16px' }} component="span" gutterBottom>
                     Eric Golden, Utah County Assessor, Certified Residential Appraiser
                 </Typography>
             </Grid>
             <Grid container item justifyContent="left" style={{paddingLeft: '10px'}}>
-                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'center', fontStyle: 'italic' }} variant="body1" component="span" gutterBottom>
+                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'left', fontStyle: 'italic', fontSize: '16px' }} component="span" gutterBottom>
                     Christina Dobecki, Utah County Assessor, Certified Residential Appraiser
                 </Typography>
             </Grid>
             <Grid container item justifyContent="left" style={{paddingLeft: '10px'}}>
-                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'center', fontStyle: 'italic' }} variant="body1" component="span" gutterBottom>
+                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'left', fontStyle: 'italic', fontSize: '16px' }} component="span" gutterBottom>
                     Dan Rich, Utah County Assessor, Certified Residential Appraiser
                 </Typography>
             </Grid>
             <Grid container item justifyContent="left" style={{paddingLeft: '10px'}}>
-                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'center', fontStyle: 'italic' }} variant="body1" component="span" gutterBottom>
+                <Typography style={{fontFamily: 'Lora', padding: '0px', textAlign: 'left', fontStyle: 'italic', fontSize: '16px' }} component="span" gutterBottom>
                      Thayle Wilkins, Utah County Assessor, Data Analyst
                 </Typography>
             </Grid>
